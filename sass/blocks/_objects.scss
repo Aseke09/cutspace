@@ -1,0 +1,41 @@
+.objects {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.objects__row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+
+    @media (max-width: 1495px) {
+        justify-content: flex-end;
+        overflow-x: hidden;
+    }
+}
+
+.objects__text {
+    padding-left: 181px;
+    width: 374px;
+    box-sizing: content-box;
+    padding-right: 150px;
+    flex-shrink: 0;
+
+    p + p {
+        margin-top: 20px;
+    }
+}
+
+.objects__title {
+    margin-bottom: 20px;
+}
+
+.objects__button {
+    margin-top: 40px;
+}
+
+.objects__img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
