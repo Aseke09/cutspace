@@ -342,7 +342,7 @@ html, body {
 }
 
 .cta__text {
-  background: url("./../../img/cta/oval-bottom-left.svg") bottom left -186px no-repeat, url("./../../img/cta/oval-top-right.svg") top right no-repeat;
+  background: url("../img/cta/oval-bottom-left.svg") bottom left -186px no-repeat, url("../img/cta/oval-top-right.svg") top right no-repeat;
   width: 555px;
   padding-left: 95px;
   padding-right: 40px;
